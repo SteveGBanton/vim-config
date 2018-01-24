@@ -23,8 +23,8 @@ map <leader>s :source ~/.vimrc<CR>
 set showcmd
 filetype indent on
 set nowrap
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 set autoindent
@@ -68,3 +68,6 @@ let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
 " NerdCommenter
 
 filetype plugin on
+
+" FZF
+set rtp+=/usr/local/opt/fzf
