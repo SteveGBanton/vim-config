@@ -13,6 +13,7 @@ syntax on
 colorscheme Tomorrow-Night
 
 set guifont=Hack\ Regular:h18
+set wrap
 
 set colorcolumn=90
 set number
@@ -22,7 +23,6 @@ map <leader>s :source ~/.vimrc<CR>
 
 set showcmd
 filetype indent on
-set nowrap
 set tabstop=2
 set shiftwidth=2
 set expandtab
