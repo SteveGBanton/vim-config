@@ -19,3 +19,9 @@
 [submodule "bundle/fzf"]
 	path = bundle/fzf
 	url = http://github.com/junegunn/fzf.vim
+[submodule "bundle/fzf"]
+	path = bundle/fzf
+	url = http://github.com/junegunn/fzf.vim
+[submodule "bundle/vim-smartinput"]
+	path = bundle/vim-smartinput
+	url = http://github.com/kana/vim-smartinput
