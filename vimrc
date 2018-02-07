@@ -44,6 +44,7 @@ noremap <Leader>r :CommandTFlush<CR>
 
 " NerdTree
 
+let NERDTreeMapOpenInTab='<ENTER>'
 let NERDTreeMapActivateNode='<right>'
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 let NERDTreeShowHidden=1
@@ -60,6 +61,7 @@ map <C-t><up> :tabr<cr>
 map <C-t><down> :tabl<cr>
 map <C-t><left> :tabp<cr>
 map <C-t><right> :tabn<cr>
+map <C-t>n :tabnew<cr>
 
 " Syntastic Eslint
 let g:syntastic_javascript_checkers=['eslint']

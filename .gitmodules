@@ -25,3 +25,6 @@
 [submodule "bundle/vim-smartinput"]
 	path = bundle/vim-smartinput
 	url = http://github.com/kana/vim-smartinput
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
